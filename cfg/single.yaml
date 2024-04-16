@@ -1,11 +1,11 @@
 stag_node:
   ros__parameters:
     # STag parameters
-    libraryHD: 15
-    errorCorrection: 7
+    libraryHD: 23
+    errorCorrection: 11
     # Camera configuration
-    camera_info_topic: /usb_cam/camera_info
-    raw_image_topic: /usb_cam/image_raw
+    camera_info_topic: /nerian_stereo/stereo_camera_info
+    raw_image_topic: /nerian_stereo/left_image
     is_compressed: false
     # Node configuration
     tag_tf_prefix: STag_
